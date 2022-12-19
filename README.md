@@ -4,7 +4,7 @@ This project was inspired by [a rather generic article](https://itechindia.co/us
 
 For this project, I chose 2 datasets, one containing IMDb reviews of either positive or negative sentiment, and the other containing emails of either athiest or christian sentiment.
 
-For the lexicon approach, found in Final_Project_Lexicon.ipynb, I used sentiwordnet to calculate a sentiment score for each text. For the ML approach, found in Final_Project_CNN.ipynb, I chose a simple CNN for classification; as per the findings of a [sample project](https://github.com/LW0214/301_project), the simplest cnn model performs just as well as more complicated models such as LeNet. For the hybrid approach, found in Final_Project_Hybrid.ipynb, I vectorized the text data and fit a SGDClassifier onto it. 
+For the lexicon approach, found in 'Final_Project_Lexicon.ipynb', I used sentiwordnet to calculate a sentiment score for each text. For the ML approach, found in 'Final_Project_CNN.ipynb', I chose a simple CNN for classification; as per the findings of a [sample project](https://github.com/LW0214/301_project), the simplest cnn model performs just as well as more complicated models such as LeNet. For the hybrid approach, found in 'Final_Project_Hybrid.ipynb', I vectorized the text data and fit a SGDClassifier onto it. 
 
 Lexicon results:<br>
 The tagging and score assignment time on the 20newsgroups dataset is 53 seconds.<br>
@@ -28,7 +28,7 @@ The accuracy of a SGDClassifier on the IMDb dataset is 88.48%.<br>
 The above results can also be found in their respective .ipynb file.
 
 
-In the <mark>shap-visualizations<mark> folder are several examples of shap visualizations, as they are not properly displayed in the .ipynb files.
+In the 'shap-visualizations' folder are several examples of shap visualizations, as they are not properly displayed in the .ipynb files.
 
 
 Special thanks to: <br>
