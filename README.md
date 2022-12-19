@@ -28,7 +28,7 @@ The accuracy of a SGDClassifier on the IMDb dataset is 88.48%.<br>
 The above results can also be found in their respective .ipynb file.
 
 
-In the shap-visualizations folder are several examples of shap visualizations, as they are not properly displayed in the .ipynb files.
+In the <mark>shap-visualizations<mark> folder are several examples of shap visualizations, as they are not properly displayed in the .ipynb files.
 
 
 Special thanks to: <br>
